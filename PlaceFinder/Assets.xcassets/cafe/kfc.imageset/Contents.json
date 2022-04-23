@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "kfc.png",
+      "filename" : "KFC.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "kfc@2x.png",
+      "filename" : "KFC@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "kfc@3x.png",
+      "filename" : "KFC@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

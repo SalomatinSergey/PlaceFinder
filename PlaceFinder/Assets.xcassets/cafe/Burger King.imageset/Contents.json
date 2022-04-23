@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "burger-king.png",
+      "filename" : "Burger King.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "burger-king@2x.png",
+      "filename" : "Burger King@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "burger-king@3x.png",
+      "filename" : "Burger King@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

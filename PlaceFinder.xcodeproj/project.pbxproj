@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5384599281444B40090E35D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A5A680342813DCF400D55465 /* PlaceFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A680372813DCF400D55465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A680392813DCF400D55465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +42,7 @@
 		A5A6802B2813DCF400D55465 = {
 			isa = PBXGroup;
 			children = (
+				A5384599281444B40090E35D /* README.md */,
 				A5A680522813EF4500D55465 /* .swiftlint.yml */,
 				A5A680362813DCF400D55465 /* PlaceFinder */,
 				A5A680352813DCF400D55465 /* Products */,
