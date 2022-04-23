@@ -1,0 +1,33 @@
+disabled_rules:
+  - colon
+  - comma
+  - control_statement
+
+opt_in_rules:
+  - empty_count
+  - missing_docs
+
+excluded:
+  - Carthage
+  - Pods
+  - Source/ExcludedFolder
+  - Source/ExcludedFile.swift
+  - PlaceFinder/SceneDelegate.swift
+
+line_length:
+  warning: 140
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_interpolated_strings: true
+  ignores_urls: true
+
+function_parameter_count:
+  - warning: 10
+  - error: 15
+
+file_length:
+  - warning: 500
+
+type_body_length:
+  - warning: 400
+  - error: 450
