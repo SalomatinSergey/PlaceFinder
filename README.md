@@ -1,6 +1,6 @@
 # PlaceFinder
 
-This is test app, for training UIkit, UImaps and more more...This is Github user search demo app which made by many variety of design patterns.
+This is test app, for training UIkit, UImaps and more more...
 
 ## Current schedule
 
