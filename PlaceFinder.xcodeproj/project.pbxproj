@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A547AF7A2815277000D5A59F /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547AF792815276F00D5A59F /* CustomTableViewCell.swift */; };
+		A547AF7C2815295A00D5A59F /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A547AF7B2815295A00D5A59F /* PlaceModel.swift */; };
 		A5A680382813DCF400D55465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A680372813DCF400D55465 /* AppDelegate.swift */; };
 		A5A6803A2813DCF400D55465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A680392813DCF400D55465 /* SceneDelegate.swift */; };
 		A5A6803F2813DCF400D55465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A6803D2813DCF400D55465 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		A5384599281444B40090E35D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A547AF792815276F00D5A59F /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A547AF7B2815295A00D5A59F /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		A5A680342813DCF400D55465 /* PlaceFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A680372813DCF400D55465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A680392813DCF400D55465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				A5A680372813DCF400D55465 /* AppDelegate.swift */,
 				A5A680392813DCF400D55465 /* SceneDelegate.swift */,
 				A5A6804F2813E66600D55465 /* MainViewController.swift */,
+				A547AF7B2815295A00D5A59F /* PlaceModel.swift */,
 				A547AF792815276F00D5A59F /* CustomTableViewCell.swift */,
 				A5A6803D2813DCF400D55465 /* Main.storyboard */,
 				A5A680402813DCF700D55465 /* Assets.xcassets */,
@@ -168,6 +171,7 @@
 			files = (
 				A5A680502813E66600D55465 /* MainViewController.swift in Sources */,
 				A5A680382813DCF400D55465 /* AppDelegate.swift in Sources */,
+				A547AF7C2815295A00D5A59F /* PlaceModel.swift in Sources */,
 				A547AF7A2815277000D5A59F /* CustomTableViewCell.swift in Sources */,
 				A5A6803A2813DCF400D55465 /* SceneDelegate.swift in Sources */,
 			);
