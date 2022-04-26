@@ -107,12 +107,6 @@
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
-    },
-    {
-      "filename" : "location@2x.png",
-      "idiom" : "mac",
-      "scale" : "2x",
-      "size" : "128x128"
     }
   ],
   "info" : {
