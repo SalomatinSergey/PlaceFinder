@@ -9,7 +9,6 @@ import UIKit
 
 class NewPlaceViewController: UITableViewController {
     
-    var newPlace = Place()
     var imageIsChanged = false
     
     @IBOutlet weak var saveButton: UIBarButtonItem!
@@ -21,12 +20,7 @@ class NewPlaceViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        DispatchQueue.main.async {
-            self.newPlace.savePlaces()
-        }
-        
-        saveButton.isEnabled = false
-        
+        saveButton.isEnabled = false        
         placeName.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
     
     }
@@ -72,15 +66,16 @@ class NewPlaceViewController: UITableViewController {
         if imageIsChanged {
             image = placeImage.image
         } else {
-            image = #imageLiteral(resourceName: "meat")
+            image = #imageLiteral(resourceName: "empty_location")
         }
         
-//        newPlace = Place(name: placeName.text!,
-//                         location: placeLocation.text,
-//                         type: placeType.text,
-//                         image: image,
-//                         placeImage: nil)
+        let imageData = image?.pngData()
+        let newPlace = Place(name: placeName.text!,
+                             location: placeLocation.text,
+                             type: placeType.text,
+                             imageData: imageData)
         
+        StorageManager.saveObject(newPlace)
     }
 
     @IBAction func cancelAction(_ sender: Any) {
@@ -106,10 +101,12 @@ extension NewPlaceViewController: UITextFieldDelegate {
     }
 }
 
-// MARK: - work with chooising image
+// MARK: - work with image
 
 extension NewPlaceViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+    /// Choose image with imagePickerController
+    /// - Parameter sourse: checking the availability of the source
     func chooseImagePicker(sourse: UIImagePickerController.SourceType) {
         if UIImagePickerController.isSourceTypeAvailable(sourse) {
             let imagePicker = UIImagePickerController()
