@@ -184,7 +184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Hx8-o2-y3i">
-                                <rect key="frame" x="0.0" y="127" width="414" height="769"/>
+                                <rect key="frame" x="0.0" y="123" width="414" height="773"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -257,7 +257,7 @@
                                 </connections>
                             </tableView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="oiN-Md-uJZ">
-                                <rect key="frame" x="0.0" y="88" width="414" height="39"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="35"/>
                                 <segments>
                                     <segment title="Date"/>
                                     <segment title="Name"/>
@@ -272,11 +272,10 @@
                         <constraints>
                             <constraint firstItem="oiN-Md-uJZ" firstAttribute="leading" secondItem="G80-iC-5rd" secondAttribute="leading" id="3TL-zw-fMk"/>
                             <constraint firstItem="oiN-Md-uJZ" firstAttribute="trailing" secondItem="G80-iC-5rd" secondAttribute="trailing" id="4xv-Nj-jzq"/>
-                            <constraint firstItem="oiN-Md-uJZ" firstAttribute="top" secondItem="G80-iC-5rd" secondAttribute="top" id="Cu5-bW-OtE"/>
                             <constraint firstItem="oiN-Md-uJZ" firstAttribute="top" secondItem="G80-iC-5rd" secondAttribute="top" id="DJ2-VZ-4Jc"/>
                             <constraint firstAttribute="trailing" secondItem="oiN-Md-uJZ" secondAttribute="trailing" id="QFK-1y-pQy"/>
-                            <constraint firstItem="Hx8-o2-y3i" firstAttribute="top" secondItem="oiN-Md-uJZ" secondAttribute="bottom" constant="1" id="QcX-2u-G8J"/>
                             <constraint firstItem="oiN-Md-uJZ" firstAttribute="leading" secondItem="G80-iC-5rd" secondAttribute="leading" id="S16-EM-Qu6"/>
+                            <constraint firstItem="Hx8-o2-y3i" firstAttribute="top" secondItem="oiN-Md-uJZ" secondAttribute="bottom" constant="1" id="Tof-Sz-Nrh"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="My places" largeTitleDisplayMode="never" id="hpn-GH-1ZY">
