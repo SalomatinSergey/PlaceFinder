@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let config = Realm.Configuration(
             schemaVersion: 2, // Set the new schema version.
-            migrationBlock: { migration, oldSchemaVersion in
+            migrationBlock: { migration, oldSchemaVersion in // swiftlint:disable:this unused_closure_parameter
                 if oldSchemaVersion < 2 {
                     // The enumerateObjects(ofType:_:) method iterates over
                     // every Person object stored in the Realm file to apply the migration
