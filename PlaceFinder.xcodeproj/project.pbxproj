@@ -13,10 +13,10 @@
 		A5A680382813DCF400D55465 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A680372813DCF400D55465 /* AppDelegate.swift */; };
 		A5A6803A2813DCF400D55465 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A680392813DCF400D55465 /* SceneDelegate.swift */; };
 		A5A6803F2813DCF400D55465 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A6803D2813DCF400D55465 /* Main.storyboard */; };
-		A5A680412813DCF700D55465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5A680402813DCF700D55465 /* Assets.xcassets */; };
 		A5A680442813DCF700D55465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A680422813DCF700D55465 /* LaunchScreen.storyboard */; };
 		A5A680502813E66600D55465 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A6804F2813E66600D55465 /* MainViewController.swift */; };
 		A5A873BD28191AF800EA6F2A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A873BC28191AF800EA6F2A /* StorageManager.swift */; };
+		A5B97C4B281BB86900A378C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B97C4A281BB86900A378C5 /* Assets.xcassets */; };
 		A5D557182817D74000D85B94 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D557172817D74000D85B94 /* NewPlaceViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,12 +31,12 @@
 		A5A680372813DCF400D55465 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5A680392813DCF400D55465 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A5A6803E2813DCF400D55465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5A680402813DCF700D55465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5A680432813DCF700D55465 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5A680452813DCF700D55465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5A6804F2813E66600D55465 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A5A680522813EF4500D55465 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		A5A873BC28191AF800EA6F2A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		A5B97C4A281BB86900A378C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5D557172817D74000D85B94 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +91,7 @@
 				A5A873BC28191AF800EA6F2A /* StorageManager.swift */,
 				A547AF792815276F00D5A59F /* CustomTableViewCell.swift */,
 				A5A6803D2813DCF400D55465 /* Main.storyboard */,
-				A5A680402813DCF700D55465 /* Assets.xcassets */,
+				A5B97C4A281BB86900A378C5 /* Assets.xcassets */,
 				A5A680422813DCF700D55465 /* LaunchScreen.storyboard */,
 				A5A680452813DCF700D55465 /* Info.plist */,
 			);
@@ -169,7 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5A680442813DCF700D55465 /* LaunchScreen.storyboard in Resources */,
-				A5A680412813DCF700D55465 /* Assets.xcassets in Resources */,
+				A5B97C4B281BB86900A378C5 /* Assets.xcassets in Resources */,
 				A5A6803F2813DCF400D55465 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
