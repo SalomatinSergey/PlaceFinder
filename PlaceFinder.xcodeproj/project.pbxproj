@@ -16,6 +16,7 @@
 		A5A680442813DCF700D55465 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A680422813DCF700D55465 /* LaunchScreen.storyboard */; };
 		A5A680502813E66600D55465 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A6804F2813E66600D55465 /* MainViewController.swift */; };
 		A5A873BD28191AF800EA6F2A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A873BC28191AF800EA6F2A /* StorageManager.swift */; };
+		A5B042ED281F979300600700 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B042EC281F979300600700 /* MapViewController.swift */; };
 		A5B97C4B281BB86900A378C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5B97C4A281BB86900A378C5 /* Assets.xcassets */; };
 		A5B97C4D281BDC8900A378C5 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B97C4C281BDC8900A378C5 /* Rating.swift */; };
 		A5D557182817D74000D85B94 /* NewPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D557172817D74000D85B94 /* NewPlaceViewController.swift */; };
@@ -37,6 +38,7 @@
 		A5A6804F2813E66600D55465 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A5A680522813EF4500D55465 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		A5A873BC28191AF800EA6F2A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		A5B042EC281F979300600700 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A5B97C4A281BB86900A378C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5B97C4C281BDC8900A378C5 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		A5D557172817D74000D85B94 /* NewPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				A5A680392813DCF400D55465 /* SceneDelegate.swift */,
 				A5A6804F2813E66600D55465 /* MainViewController.swift */,
 				A5D557172817D74000D85B94 /* NewPlaceViewController.swift */,
+				A5B042EC281F979300600700 /* MapViewController.swift */,
 				A547AF7B2815295A00D5A59F /* PlaceModel.swift */,
 				A5A873BC28191AF800EA6F2A /* StorageManager.swift */,
 				A547AF792815276F00D5A59F /* CustomTableViewCell.swift */,
@@ -247,6 +250,7 @@
 				A5D557182817D74000D85B94 /* NewPlaceViewController.swift in Sources */,
 				A5A680382813DCF400D55465 /* AppDelegate.swift in Sources */,
 				A5A873BD28191AF800EA6F2A /* StorageManager.swift in Sources */,
+				A5B042ED281F979300600700 /* MapViewController.swift in Sources */,
 				A5B97C4D281BDC8900A378C5 /* Rating.swift in Sources */,
 				A547AF7C2815295A00D5A59F /* PlaceModel.swift in Sources */,
 				A547AF7A2815277000D5A59F /* CustomTableViewCell.swift in Sources */,
@@ -400,6 +404,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BFF25EMY9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlaceFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -429,6 +434,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BFF25EMY9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlaceFinder/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
