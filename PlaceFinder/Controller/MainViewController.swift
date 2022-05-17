@@ -49,12 +49,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? CustomTableViewCell else {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
-            cell.textLabel?.text = places[indexPath.row].name
-            cell.imageView?.image = UIImage(named: places[indexPath.row].name)
-            return cell
-        }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as? CustomTableViewCell
+        guard let cell = cell else { return UITableViewCell() }
         
         let place = isFiltering ? filtredPlaces[indexPath.row] : places[indexPath.row]
         

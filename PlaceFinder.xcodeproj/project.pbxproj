@@ -72,7 +72,6 @@
 				A5A6804F2813E66600D55465 /* MainViewController.swift */,
 				A5D557172817D74000D85B94 /* NewPlaceViewController.swift */,
 				A5B042EC281F979300600700 /* MapViewController.swift */,
-				A547AF792815276F00D5A59F /* CustomTableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -109,6 +108,7 @@
 		A548F78128200DAB00520D64 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A547AF792815276F00D5A59F /* CustomTableViewCell.swift */,
 				A5A6803D2813DCF400D55465 /* Main.storyboard */,
 				A5A680422813DCF700D55465 /* LaunchScreen.storyboard */,
 			);
