@@ -2,7 +2,7 @@
 
 This is test app, for training UIkit, UImaps, GCD and Realm data base
 
-(!Image)[https://github.com/SalomatinSergey/PlaceFinder/Support%20FIles/Assets.xcassets/app.dataset/app.gif]
+!(Image)[https://github.com/SalomatinSergey/PlaceFinder/blob/main/PlaceFinder/Support%20Files/Assets.xcassets/app.dataset/app.gif]
 
 ## How to install
 open console and write this:
