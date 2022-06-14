@@ -1,20 +1,26 @@
 # PlaceFinder
 
-This is test app, for training UIkit, UImaps and more more...
+This is test app, for training UIkit, UImaps, GCD and Realm data base
 
-## Current schedule
+(!Image)[https://github.com/SalomatinSergey/PlaceFinder/Support%20FIles/Assets.xcassets/app.dataset/app.gif]
 
-- Create simple TableView app on MVC architecture
-- Create button in on the Navigation bar to create a new location in cell in TabeView
-- New view of the created location 
-    - Add image this place (UIImage)
-    - Name (UITextField)
-    - Location (UIMapKit)
-    - Type
-    - Overall score
-- Sorting place on Navigation bar
+## How to install
+open console and write this:
 
-- maybe... realize this app on MVVM architecture
+```
+git init 
+```
+```
+git clone https://github.com/SalomatinSergey/PlaceFinder.git
+```
+moving to project directory
+```
+cd PlaceFinder
+```
+and install used pods:
+```
+pod install
+```
 
 ## Requirements
 

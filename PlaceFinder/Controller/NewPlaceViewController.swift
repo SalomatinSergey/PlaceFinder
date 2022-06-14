@@ -18,6 +18,7 @@ class NewPlaceViewController: UITableViewController {
     @IBOutlet weak var placeType: UITextField!
     @IBOutlet weak var placeLocation: UITextField!
     @IBOutlet weak var ratingControl: Rating!
+    @IBOutlet weak var routeToAdress: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,9 @@ class NewPlaceViewController: UITableViewController {
 //                                                         height: 1))
         saveButton.isEnabled = false
         placeName.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
+        routeToAdress.isHidden = true
+        placeLocation.addTarget(self, action: #selector(textFieldNotEmpty), for: .editingChanged)
+        
         setupEditScreen()
     
     }
@@ -125,6 +129,10 @@ class NewPlaceViewController: UITableViewController {
             placeName.text = currentPlace?.name
             ratingControl.rating = (currentPlace?.rating)!
         }
+        
+        if placeLocation.text?.isEmpty == false {
+            routeToAdress.isHidden = false
+        }
     }
     
     private func setupNavigationBar() {
@@ -155,6 +163,14 @@ extension NewPlaceViewController: UITextFieldDelegate {
             saveButton.isEnabled = true
         } else {
             saveButton.isEnabled = false
+        }
+    }
+    
+    @objc private func textFieldNotEmpty() {
+        if placeLocation.text?.isEmpty == false {
+            routeToAdress.isHidden = false
+        } else {
+            routeToAdress.isHidden = true
         }
     }
 }
