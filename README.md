@@ -8,14 +8,14 @@ This is test app, for training UIkit, UImaps, GCD and Realm data base
 open console and write this:
 
 ```
-git init 
-```
-```
 git clone https://github.com/SalomatinSergey/PlaceFinder.git
 ```
 moving to project directory
 ```
 cd PlaceFinder
+```
+```
+git init 
 ```
 and install used pods:
 ```
